@@ -16,7 +16,7 @@ jobs:
       - name: Build mod
         uses: geode-sdk/build-geode-mod@main
         with:
-          sdk: stable
+          sdk: v5.11.2
           target: Win64
           use-lto: false
           use-cpm-cache: false
